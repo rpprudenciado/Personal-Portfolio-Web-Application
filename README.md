@@ -1,6 +1,6 @@
 # Personal Portfolio Web Application 👤
  
-> *A 4-page responsive personal portfolio website built with HTML5 and CSS3, demonstrating core CSS layout techniques, Box Model principles, and Flexbox alignment.*
+> *A responsive personal portfolio website built with HTML5 and CSS3, demonstrating core CSS layout techniques, Box Model principles, and Flexbox alignment.*
 
 ---
 
