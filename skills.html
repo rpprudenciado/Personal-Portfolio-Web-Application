@@ -1,7 +1,7 @@
 <!--
-PROGRAM NAME: skills.html
-DESCRIPTION: Skills page of the portfolio. It lists programming languages, Python coursework, 
-web development, technical training, areas of interest, and professional skills.
+PROGRAM NAME: projects.html
+DESCRIPTION: Projects page of the portfolio. It showcases the Career Roadmap, Banking System, 
+Motorcycle Maintenance Tracker, and this portfolio website, with links to their GitHub repositories.
 AUTHOR: Prudenciado, Rhona-Mae
 DATE COMPILED: November 6, 2026
 -->
@@ -12,22 +12,8 @@ DATE COMPILED: November 6, 2026
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills | RM Prudenciado</title>
+    <title>Projects | RM Prudenciado</title>
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        .card {
-            text-align: center;
-        }
-
-        .card h3 {
-            text-align: center;
-        }
-
-        .pill-list {
-            justify-content: center;
-        }
-    </style>
 </head>
 
 <body>
@@ -37,72 +23,72 @@ DATE COMPILED: November 6, 2026
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a class="active" href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="page-header">
-        <h2>My Skills</h2>
-        <p>The technical and professional skills I have built through my studies, training, and projects.</p>
+        <h2>My Projects</h2>
+        <p>A few things I have built, on my own and with a partner.</p>
     </div>
 
     <main>
         <div class="container">
-            <div class="card-row">
+            <div class="card-row cols-2">
 
                 <section class="card">
-                    <h3>Programming Languages</h3>
+                    <h3>Career Roadmap</h3>
+                    <p>Navig8.tech, an interactive, web-based career roadmap and learning path platform I developed to
+                        help IT and Computer Science students navigate specialization decisions and build their
+                        portfolio along the way.</p>
+                    <ul class="pill-list">
+                        <li>HTML</li>
+                        <li>Career Guidance</li>
+                        <li>Portfolio Building</li>
+                    </ul>
+                    <a class="btn btn-outline"
+                        href="https://github.com/rpprudenciado/Structured-Career-Roadmap-Platform-To-Support-IT-Specialization-Decisions"
+                        target="_blank" rel="noopener">View on GitHub</a>
+                </section>
+
+                <section class="card">
+                    <h3>Banking System</h3>
+                    <p>A secure, interactive banking system built in Java, completed together with a partner.</p>
+                    <ul class="pill-list">
+                        <li>Java</li>
+                        <li>Team Project</li>
+                    </ul>
+                    <a class="btn btn-outline" href="https://github.com/rpprudenciado/Bank-Secure-Banking-System"
+                        target="_blank" rel="noopener">View on GitHub</a>
+                </section>
+
+                <section class="card">
+                    <h3>Motorcycle Maintenance Tracker</h3>
+                    <p>MotoPulse, a console-based Python application that automates motorcycle maintenance tracking,
+                        logs vehicle mileage, tracks historical expenses, and surfaces prioritized service alerts.
+                        Completed together with a partner.</p>
                     <ul class="pill-list">
                         <li>Python</li>
-                        <li>Java (Basic)</li>
-                        <li>Bash (Basic)</li>
+                        <li>Team Project</li>
                     </ul>
+                    <a class="btn btn-outline"
+                        href="https://github.com/rpprudenciado/Motorcycle-Maintenance-Tracker-and-Alert-System"
+                        target="_blank" rel="noopener">View on GitHub</a>
                 </section>
 
                 <section class="card">
-                    <h3>Python Coursework</h3>
-                    <p>Completed on DataCamp:</p>
-                    <ul class="pill-list">
-                        <li>Introduction to Python for Developers</li>
-                        <li>Intermediate Python for Developers</li>
-                        <li>Python Toolbox</li>
-                        <li>Data Types in Python</li>
-                    </ul>
-                </section>
-
-                <section class="card">
-                    <h3>Web Development</h3>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>This website, built from scratch to practice the CSS Box Model and Flexbox.</p>
                     <ul class="pill-list">
                         <li>HTML</li>
                         <li>CSS</li>
                     </ul>
-                </section>
-
-                <section class="card">
-                    <h3>Technical Training</h3>
-                    <ul class="pill-list">
-                        <li>Computer Systems Servicing</li>
-                    </ul>
-                </section>
-
-                <section class="card">
-                    <h3>Areas of Interest</h3>
-                    <ul class="pill-list">
-                        <li>Cloud Computing</li>
-                        <li>Cybersecurity</li>
-                        <li>Networking</li>
-                    </ul>
-                </section>
-
-                <section class="card">
-                    <h3>Professional Skills</h3>
-                    <ul class="pill-list">
-                        <li>Teamwork</li>
-                        <li>Self-Learning</li>
-                    </ul>
+                    <a class="btn btn-outline"
+                        href="https://github.com/rpprudenciado/Personal-Portfolio-Web-Application" target="_blank"
+                        rel="noopener">View on GitHub</a>
                 </section>
 
             </div>
