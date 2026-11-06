@@ -1,3 +1,11 @@
+/*
+PROGRAM NAME: style.css
+DESCRIPTION: External stylesheet shared by all pages of the portfolio. It sets the color palette, 
+layout (Box Model and Flexbox), navigation, cards, buttons, and mobile responsiveness.
+AUTHOR: Prudenciado, Rhona-Mae
+DATE COMPILED: November 6, 2026
+*/
+
 :root {
     --coffee-bean: #100007;
     --midnight-violet: #200116;
